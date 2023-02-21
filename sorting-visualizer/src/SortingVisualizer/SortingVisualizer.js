@@ -104,7 +104,7 @@ export default function SortingVisualizer() {
         barOneStyle.height = `${barOneHeight}px`;
         barTwoStyle.height = `${barTwoHeight}px`;
         barOneStyle.backgroundColor = color;
-        barTwoStyle.backgroundColor = color;
+        barTwoStyle.backgroundColor = SECONDARY_COLOR;
         const [firstIdx] = animations[0];
         arrayBars[firstIdx].style.backgroundColor = VALIDATION_COLOR;
       }, i * BUBBLE_SORT_SPEED_MS);
