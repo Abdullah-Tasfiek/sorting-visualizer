@@ -1,7 +1,7 @@
 # sorting-visualizer
 
 ## About
-This project is to demonstrate how different sorting algorithms work with a real-time visual. The current sorting algorithms implemented on this project are merge sort and bubble sort. I will implement more sorting algorithms like quick sort and heap sort in the future. 
+This project is to demonstrate how different sorting algorithms work with a real-time visual. The current sorting algorithms implemented on this project are merge sort and bubble sort. I will implement more sorting algorithms like quick sort, heap sort, etc in the future. 
 
 ### Visit the project below
 
