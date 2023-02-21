@@ -1,0 +1,40 @@
+.arrayContainer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 80vh;
+    transform: rotate(180deg) scale(-1, 1);
+
+    &__bar {
+    width: 10px;
+    background-color: #7198EC;
+    display: inline-block;
+    margin: 0 1px;
+    }
+}
+
+.sortingButtons {
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   
+   &__button {
+    transition-duration: 0.4s;
+    padding: auto;
+    background-color: #58B98E;
+  }
+  
+  &__button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+.Title {
+    text-align: center;
+}

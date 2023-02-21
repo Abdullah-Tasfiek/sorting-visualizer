@@ -1,0 +1,11 @@
+.Hamburger {
+    margin: auto;
+
+    &__background {
+        background-color: #21355E;
+    }
+
+    &__close {
+        background-color: red;
+    }
+}
