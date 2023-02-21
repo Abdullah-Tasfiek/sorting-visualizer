@@ -7,6 +7,7 @@ import {
   iterateThroughAllBars,
   getQuickSortAnimations,
 } from "../SortingAlgorithms/sortingAlgorithm";
+import Button from "@mui/material/Button";
 
 export default function SortingVisualizer() {
   const [array, setArray] = useState([]);
@@ -166,44 +167,50 @@ export default function SortingVisualizer() {
         ))}
       </div>
       <div className="sortingButtons">
-        <button
-          className="sortingButtons__button button"
+        <Button
+          variant="contained"
+          className="sortingButtons__button"
           onClick={() => {
             resetArray();
           }}
         >
           Generate New Array
-        </button>
-        <button
-          className="sortingButtons__button button"
+        </Button>
+        <Button
+          variant="contained"
+          className="sortingButtons__button"
           onClick={() => {
             mergeSort();
           }}
         >
           Merge Sort
-        </button>
-        <button
-          className="sortingButtons__button button"
+        </Button>
+        <Button
+          variant="contained"
+          className="sortingButtons__button"
           onClick={() => {
             bubbleSort();
           }}
         >
           Bubble Sort
-        </button>
-        <button
-          className="sortingButtons__button button"
+        </Button>
+        {/* <Button
+          variant="contained"
+          className="sortingButtons__button"
           onClick={() => {
             quickSort();
           }}
         >
           Quick Sort
-        </button>
-        <button className="sortingButtons__button button">Heap Sort</button>
+        </Button>
+        <Button variant="contained" className="sortingButtons__button">
+          Heap Sort
+        </Button> */}
         {/* <button
           onClick={() => {
             testSortingAlgorithms();
           }}
-          className="sortingButtons__button button"
+          className="sortingButtons__button"
         >
           Test Your Array
         </button> */}

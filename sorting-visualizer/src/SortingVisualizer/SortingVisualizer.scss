@@ -2,7 +2,7 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    height: 80vh;
+    height: 65vh;
     transform: rotate(180deg) scale(-1, 1);
 
     &__bar {
@@ -15,19 +15,9 @@
 
 .sortingButtons {
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
    margin: auto;
-   
-   &__button {
-    transition-duration: 0.4s;
-    padding: auto;
-    background-color: #58B98E;
-  }
-  
-  &__button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-  }
+   margin-top: 15px;
 }
 
 .disabled {
